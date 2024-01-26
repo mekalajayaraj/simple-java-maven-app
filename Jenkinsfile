@@ -29,11 +29,7 @@ pipeline{
                 }
             }
         }
-        stage('Deploy') {
-            steps {
-                bat 'make publish'
-            }
-        }
+       
         
     }
 }
